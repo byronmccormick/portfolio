@@ -118,7 +118,7 @@ input, select, textarea {
 	/* byron */
 	#top header h2, #top header p{
 		color: white !important;
-		font-size: 1.9rem;
+		font-size: 1.35rem;
 	}
 	#top header h2{
 		font-size: 3rem;
@@ -136,7 +136,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 2em;
+		font-size: 2.5em;
 		letter-spacing: -1px;
 	}
 
@@ -146,6 +146,7 @@ input, select, textarea {
 
 			h2.alt strong {
 				color: #666;
+				font-weight: bold;
 			}
 
 	h3 {
@@ -1954,13 +1955,13 @@ input, select, textarea {
 	.button {
 		position: relative;
 		display: inline-block;
-		border-radius: 0.35em;
+		border-radius:0.12em;
 		color: #fff !important;
 		text-decoration: none;
 		font-size: 1.5rem;
 		padding: 0.3em 1.8em 0.3em 1.8em;
 		background-color: transparent;
-		border: 2px solid white;
+		border:0.1em solid #FFFFFF;
 		cursor: pointer;
 		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
 		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
@@ -1981,8 +1982,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #FFF;
-			opacity: 0.5;
+			color:#000000;
+			background-color:#FFFFFF;
 		}
 
 		input[type="button"]:active,
@@ -2267,7 +2268,7 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/bg6.jpg");
+				background-image: url("../../images/bg5.jpg");
 			}
 
 			#main > section.two {
